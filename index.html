@@ -7,6 +7,11 @@
         data-website-id="ef461a36-7244-4b72-bdef-c0599912c022"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="assets/icons/favicon.png" type="image/png" />
+    <link rel="canonical" href="https://formulasivar.com/" />
+    <meta name="theme-color" content="#121212" />
+    <meta name="robots" content="index, follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <meta name="description"
         content="Formula Sivar es la comunidad líder de Fórmula 1 y Motor Sport en El Salvador. Sigue eventos, noticias y carreras de velocidad con nosotros." />
@@ -15,20 +20,50 @@
     <title>Formula Sivar | Comunidad de Fórmula 1 en El Salvador</title>
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://formulasivar.com/">
-    <meta property="og:title" content="Formula Sivar | Comunidad de Fórmula 1 en El Salvador">
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_SV" />
+    <meta property="og:site_name" content="Formula Sivar" />
+    <meta property="og:url" content="https://formulasivar.com/" />
+    <meta property="og:title" content="Formula Sivar | Comunidad de Fórmula 1 en El Salvador" />
     <meta property="og:description"
-        content="Únete a la comunidad de Motor Sport más grande de El Salvador. Eventos, noticias y pasión por la velocidad.">
-    <meta property="og:image" content="assets/icons/favicon.png">
+        content="Únete a la comunidad de Motor Sport más grande de El Salvador. Eventos, noticias y pasión por la velocidad." />
+    <meta property="og:image" content="https://formulasivar.com/assets/images/banner_desktop.webp" />
+    <meta property="og:image:alt" content="Comunidad Formula Sivar - Fórmula 1 en El Salvador" />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://formulasivar.com/">
-    <meta property="twitter:title" content="Formula Sivar | Comunidad de Fórmula 1 en El Salvador">
-    <meta property="twitter:description"
-        content="Únete a la comunidad de Motor Sport más grande de El Salvador. Eventos, noticias y pasión por la velocidad.">
-    <meta property="twitter:image" content="assets/icons/favicon.png">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://formulasivar.com/" />
+    <meta name="twitter:title" content="Formula Sivar | Comunidad de Fórmula 1 en El Salvador" />
+    <meta name="twitter:description"
+        content="Únete a la comunidad de Motor Sport más grande de El Salvador. Eventos, noticias y pasión por la velocidad." />
+    <meta name="twitter:image" content="https://formulasivar.com/assets/images/banner_desktop.webp" />
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://formulasivar.com/#org",
+                "name": "Formula Sivar",
+                "url": "https://formulasivar.com/",
+                "logo": "https://formulasivar.com/assets/icons/favicon.png",
+                "sameAs": [
+                    "https://www.instagram.com/formulasivar",
+                    "https://t.me/+dQe5YZbsTmZhOTJh",
+                    "https://www.tiktok.com/@formulasivar"
+                ]
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://formulasivar.com/#website",
+                "url": "https://formulasivar.com/",
+                "name": "Formula Sivar",
+                "inLanguage": "es-SV",
+                "publisher": { "@id": "https://formulasivar.com/#org" }
+            }
+        ]
+    }
+    </script>
     <link rel="stylesheet" href="css/global.css?v=27" />
     <link rel="stylesheet" href="css/home.css?v=17" />
 </head>
@@ -36,11 +71,13 @@
 <body>
     <!-- Fondo SVG y Textura -->
 
-    <img src="assets/images/banner_Web.webp" alt="" class="banner-top banner-top-mobile" aria-hidden="true" />
-    <img src="assets/images/banner_desktop.webp" alt="" class="banner-top banner-top-desktop" aria-hidden="true" />
+    <img src="assets/images/banner_Web.webp" alt="" class="banner-top banner-top-mobile" aria-hidden="true" fetchpriority="high" decoding="async" />
+    <img src="assets/images/banner_desktop.webp" alt="" class="banner-top banner-top-desktop" aria-hidden="true" fetchpriority="high" decoding="async" />
 
     <header class="site-header">
         <h1 class="sr-only">Formula Sivar - La Comunidad de Fórmula 1 y Motor Sport en El Salvador</h1>
+        <p class="sr-only">Comunidad salvadoreña de Fórmula 1: watch parties, calendario 2026, viaje al GP de Brasil, podcast y radio de motorsport en San Salvador.</p>
+        <noscript><p>Formula Sivar es la comunidad de Fórmula 1 en El Salvador. Eventos, calendario 2026, viaje al GP de Brasil, podcast y radio.</p></noscript>
         <div class="site-header-inner">
             <img src="assets/icons/formulasivar_webp_blank_lowquality.webp"
                 alt="Logo de Formula Sivar - Comunidad F1 El Salvador" class="logo" />
@@ -48,19 +85,19 @@
             <!--REDES SOCIALES -->
             <div class="glass-box redes-sociales glass-card">
                 <h2 class="sr-only">Redes Sociales de Formula Sivar</h2>
-                <a href="https://www.instagram.com/formulasivar?utm_source=qr" target="_blank">
+                <a href="https://www.instagram.com/formulasivar?utm_source=qr" target="_blank" rel="noopener">
                     <img src="assets/icons/instagram.webp" alt="Instagram Formula Sivar El Salvador" class="icon" />
                 </a>
 
-                <a href="https://t.me/+dQe5YZbsTmZhOTJh" target="_blank">
+                <a href="https://t.me/+dQe5YZbsTmZhOTJh" target="_blank" rel="noopener">
                     <img src="assets/icons/telegram.webp" alt="Comunidad Telegram Formula Sivar" class="icon" />
                 </a>
 
-                <a href="https://www.whatsapp.com/channel/0029VbAxeOZBFLgWYbOdHy2C" target="_blank">
+                <a href="https://www.whatsapp.com/channel/0029VbAxeOZBFLgWYbOdHy2C" target="_blank" rel="noopener">
                     <img src="assets/icons/whatsapp.webp" alt="Canal de WhatsApp Formula Sivar" class="icon" />
                 </a>
 
-                <a href="https://www.tiktok.com/@formulasivar" target="_blank">
+                <a href="https://www.tiktok.com/@formulasivar" target="_blank" rel="noopener">
                     <img src="assets/icons/tiktok.webp" alt="TikTok Formula Sivar F1" class="icon" />
                 </a>
 
@@ -69,7 +106,7 @@
                 </a>
 
                 <a href="https://www.amazon.com/-/es/shop/formulasivar?fbclid=PAb21jcAOWyc9leHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAadn6hrlKAnCcmMdQnajOJtIsTbUeiZJTw-e4w2u3MVk1ixT8OCvjIYuXBCORw_aem_ap6nA--IwV8ZiKa3kox3sA"
-                    target="_blank">
+                    target="_blank" rel="noopener">
                     <img src="assets/icons/amazon.webp" alt="Amazon" class="icon" />
                 </a>
             </div>
@@ -127,7 +164,7 @@
                                     <div class="mini-tl-item item-cyan">
                                         <span class="mini-date">FINALIZADO</span>
                                         <div class="mini-content">
-                                            <a href="https://www.instagram.com/reel/DS8IExckRc2/" target="_blank">
+                                            <a href="https://www.instagram.com/reel/DS8IExckRc2/" target="_blank" rel="noopener">
                                                 <h4> GP MADRID</h4>
                                                 <p> FINALIZADO </p>
                                             </a>
@@ -137,7 +174,7 @@
                                     <div class="mini-tl-item item-red">
                                         <span class="mini-date">EN CURSO</span>
                                         <div class="mini-content">
-                                            <a href="https://www.instagram.com/formulasivar/" target="_blank">
+                                            <a href="https://www.instagram.com/formulasivar/" target="_blank" rel="noopener">
                                                 <h4> GP AZERBAIJAN</h4>
                                                 <p> PRONTO ..</p>
                                                 <p> INFORMACION</p>
@@ -148,7 +185,7 @@
                                     <div class="mini-tl-item item-gold">
                                         <span class="mini-date">PRÓXIMAMENTE</span>
                                         <div class="mini-content">
-                                            <a href="https://www.tiktok.com/@formulasivar" target="_blank">
+                                            <a href="https://www.tiktok.com/@formulasivar" target="_blank" rel="noopener">
                                                 <h4> GP BAHRAIN</h4>
                                                 <p> TRABAJANDO EN ELLO ..</p>
                                             </a>
@@ -160,7 +197,7 @@
                         </div>
 
                         <div class="calendar-image-wrapper">
-                            <a href="https://www.tiktok.com/@formulasivar/video/7542528974900038918" target="_blank"
+                            <a href="https://www.tiktok.com/@formulasivar/video/7542528974900038918" target="_blank" rel="noopener"
                                 class="calendar-link">
                                 <div class="calendar-slider" id="cinematic-slider">
                                     <!-- Las imágenes se inyectan vía JS para rotación infinita -->
@@ -249,7 +286,7 @@
                         <div id="icon-anim-2" class="glass-circle-icon"></div>
                     </a>
 
-                    <a href="https://unsplash.com/es/s/fotos/formulasivar" target="_blank" class="photo-card split-card"
+                    <a href="https://unsplash.com/es/s/fotos/formulasivar" target="_blank" rel="noopener" class="photo-card split-card"
                         style="text-decoration: none;">
                         <div class="card-overlay">
                             <h3 class="card-title-lg">VER</h3>
@@ -263,7 +300,7 @@
                 <!-- BANNER EL SALVADOR (COL 2) -->
                 <div class="banner-split-container">
                     <a href="https://www.elsalvador.com/deportes/mas-deportes/formula-1-comunidad-en-el-salvador/1248055/2025/"
-                        target="_blank" class="photo-card banner-mode banner-card"
+                        target="_blank" rel="noopener" class="photo-card banner-mode banner-card"
                         style="text-decoration: none; cursor: pointer;">
 
                         <div class="card-overlay">
