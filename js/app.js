@@ -82,6 +82,9 @@ lottieConfigs.forEach(config => {
 
     anim.setSpeed(config.speed);
 
+    // Evita repintar micro-frames intermedios (menos CPU por frame, imperceptible a estas velocidades)
+    anim.setSubframe(false);
+
     // Guardamos la referencia de la animación en el propio elemento HTML para acceder luego
     container.lottieInstance = anim;
 
