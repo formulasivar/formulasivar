@@ -42,11 +42,10 @@
     </script>
     <link rel="stylesheet" href="css/global.css?v=3">
 
-    <link rel="stylesheet" href="css/calendar-2026.css?v=3">
+    <link rel="stylesheet" href="css/calendar-2026.css?v=4">
 
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie_light.min.js"></script>
     <script defer src="js/app.js"></script>
-    <script defer src="js/calendar-interaction.js"></script>
 
 </head>
 
@@ -68,26 +67,6 @@
 
     <!-- Botón fuera del banner para evitar herencia de z-index -->
     <button id="close-banner" class="close-button banner-close-button" onclick="window.location.href='index.html'">X</button>
-
-    <!-- Modal fuera del banner para que z-index quede por encima del calendario -->
-    <div id="event-detail-container" class="event-detail-container hidden">
-        <button id="close-event-details" class="close-button">X</button>
-        <div class="event-detail-content">
-            <div class="event-images-slider">
-                <div id="event-images-track" class="event-images-track">
-                    <!-- Las imágenes se cargarán aquí dinámicamente -->
-                </div>
-                <button id="prev-image" class="slider-arrow prev-arrow">&#10094;</button>
-                <button id="next-image" class="slider-arrow next-arrow">&#10095;</button>
-                <div id="slider-indicators" class="slider-indicators"></div>
-            </div>
-            <div class="event-text-content">
-                <img id="event-detail-logo" class="event-detail-logo" src="" alt="Event Logo" style="display: none;">
-                <h2 id="event-detail-title" class="event-detail-title"></h2>
-                <p id="event-detail-description" class="event-detail-description"></p>
-            </div>
-        </div>
-    </div>
 
     <div class="content-wrapper">
 

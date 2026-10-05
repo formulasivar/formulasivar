@@ -20,7 +20,7 @@ Redes integradas: Instagram, Telegram, WhatsApp (canal), TikTok, YouTube, Amazon
 - **Sitio 100 % estático:** HTML, CSS y JavaScript vanilla, sin frameworks ni dependencias de build. Carga rápida y hosting gratuito.
 - **Responsive:** layout bento en desktop (2 columnas) y apilado en móvil, con banners dedicados (`banner_desktop.webp` / `banner_Web.webp`).
 - **Estilos:** efecto glassmorphism, CSS modular por página (`global.css`, `home.css`, `calendar-2026.css`, `podcast.css`, `radio.css`, `landyard.css`).
-- **Interactividad:** contador de eventos, slider de calendario y reproductor de radio en JS vanilla (`app.js`, `calendar-interaction.js`, `radio.js`).
+- **Interactividad:** contador de eventos, slider de calendario y reproductor de radio en JS vanilla (`app.js`, `radio.js`).
 - **SEO:** meta tags, Open Graph / Twitter Cards, `robots.txt`, `sitemap.xml` e H1 semántico.
 - **Analítica:** Umami (`cloud.umami.is`) para medición de visitas sin cookies invasivas.
 - **Assets optimizados:** imágenes WebP, iconografía propia y caché de navegador vía `.htaccess` (aplica solo en hostings Apache; sin efecto en GitHub Pages).
