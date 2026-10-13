@@ -221,7 +221,7 @@ img {
 }
 
 .bento-splits .split-card:last-child::before {
-    background-image: url('../assets/images/glasscards/galeria.webp');
+    background-image: url('../assets/images/landyard_3.webp');
 }
 
 .bento-banner::before,
@@ -426,6 +426,17 @@ img {
     -webkit-box-orient: vertical;
     overflow: hidden;
     max-width: 95%;
+}
+
+/* Tipografía compacta para la tarjeta LANDYARD (textos más largos) */
+.bento-splits .split-card:last-child .card-title-lg {
+    font-size: clamp(1.25rem, 3.2vw, 1.9rem);
+    letter-spacing: 1.5px;
+}
+
+.bento-splits .split-card:last-child .card-subtitle {
+    font-size: clamp(0.58rem, 1.4vw, 0.8rem);
+    letter-spacing: 1px;
 }
 
 

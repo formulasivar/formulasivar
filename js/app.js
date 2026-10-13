@@ -36,7 +36,7 @@ const lottieConfigs = [
         speed: 0.3
     },
     {
-        id: 'icon-anim-galeria',
+        id: 'icon-anim-landyard',
         path: 'assets/animations/Party.json',
         speed: 0.3
     },
